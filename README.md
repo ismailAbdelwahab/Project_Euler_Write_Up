@@ -2,15 +2,16 @@
 
 When i feel like it, i try to solve some of these problems.
 
-Remember that these solution may not be the best, but they work!
+Remember that these solutions may not be the best, but they work!
 
  **Do not use this code just to have the answer to a problem.**
  
 Try to understand what is done and why! This way, i hope you will learn as much as you can.
 ## Repo's architecture:
 - XXX/ ---------------------------------------------------> { Folder of the problem n°XXX }
-  - Problem n°X: Will be solved in the file *X_prob.py*
-  - *filename*.txt ---> { Some data needed by the code }
+  - *X_prob*.py -----------------> { Code that solves the problem n°X }
+  - *XXX_prob_explication*.txt --> { Some text to explain what i did in the code}
+  - *filename*.txt --------------> { Some data needed by the code }
 - README.md ----------------------------------------------> { This current file }
 
 ## Error or issues:
