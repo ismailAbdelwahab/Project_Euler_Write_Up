@@ -9,9 +9,9 @@ Remember that these solutions may not be the best, but they work!
 Try to understand what is done and why! This way, i hope you will learn as much as you can.
 ## Repo's architecture:
 - XXX/ ---------------------------------------------------> { Folder of the problem n°XXX }
-  - *X_prob*.py -----------------> { Code that solves the problem n°X }
-  - *XXX_prob_explication*.txt --> { Some text to explain what i did in the code}
-  - *filename*.txt --------------> { Some data needed by the code }
+  - **X_prob**.py -------------------> { Code that solves the problem n°X }
+  - **XXX_prob_explication**.txt --> { Some text to explain what i did in the code}
+  - **filename**.txt -----------------> { Some data needed by the code }
 - README.md ----------------------------------------------> { This current file }
 
 ## Error or issues:
