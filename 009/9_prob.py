@@ -22,6 +22,4 @@ for a in range(1000): #first number:
 		b += 1   #increase b
 		c -= 1   #decrease c
 		#Retest.
-# When the result is found we break: The program  output the result and stops.
-
-				
+# When the result is found we break: The program  output the result and stops.	
