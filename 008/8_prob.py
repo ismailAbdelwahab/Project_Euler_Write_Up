@@ -4,13 +4,13 @@
 #   https://github.com/ismailAbdelwahab/Project_Euler_Wrprime_factor_Up	
 #----------------------------------------------------------------
 #----------------------------------------------------------------
-#        8th Problem : https://projecteuler.net/problem=7
+#        8th Problem : https://projecteuler.net/problem=8
 #
 #  	  13 adjacent digits with greatest product in a matrix.
 #----------------------------------------------------------------
 
 with open("matrix.txt","r") as f:
-	#Get all ligns of the text file as 1 string
+	#Get all lines of the text file as 1 string
 	text = f.read().replace("\n",'') 
 
 lastIn = len(text)-1
