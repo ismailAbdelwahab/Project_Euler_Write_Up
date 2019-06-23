@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #----------------------------------------------------------------
 #  Copyright (c) ABDEL WAHAB Ismail.      Created: June 23 2019				
-#   https://github.com/ismailAbdelwahab/Project_Euler_Wrprime_factor_Up	
+#   https://github.com/ismailAbdelwahab/Project_Euler_Write_Up	
 #----------------------------------------------------------------
 #----------------------------------------------------------------
 #        13th Problem : https://projecteuler.net/problem=13
