@@ -32,8 +32,8 @@ Exemple: with N=4, (This is the exemple given in the Project Euler problem)
        [_, R, R, _]  
        [_, R, _, R]   In fact this number can be found as a number of combinaison
        [_, _, R, R]
-                               (4)
-He we brute-force to calculate (2) called "2 choose 4"
+                                 (4)
+Here we brute-force to calculate (2) called "2 choose 4"
 
 In our problem, the grid is 20*20 so we just need to calculate 20 choose 40 !
 
@@ -41,7 +41,7 @@ In our problem, the grid is 20*20 so we just need to calculate 20 choose 40 !
 	This represent a combination, from Pascal triangle.
 
 written as:	( n )  <--- (with one parenthesis for both lines)
-			( k ) 
+		( k ) 
 
 And we use the following formula to calculate it:
             n! /( k!(n-k)! ) 
@@ -54,8 +54,8 @@ https://en.wikipedia.org/wiki/Pascal's_triangle
 Ex:  5! = 1 * 2 * 3 * 4 * 5
 AND
 Ex:  8! = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8
-		=        5!         * 6 * 7 * 8
-		=               7!          * 8
+	=	  5!       * 6 * 7 * 8
+	=               7!         * 8
 
 So : We now know: 8! = (8-1)! * 8
 
