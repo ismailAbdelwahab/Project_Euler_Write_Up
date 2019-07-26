@@ -37,7 +37,7 @@ def main():
 		totalScore += alphaSumValue(name) * index
 		index += 1
 
-	print("    |#| Project Euler - problem 21 |#|\n")
+	print("    |#| Project Euler - problem 22 |#|\n")
 	print("The total score of this file is:")
 	print("   Score =",totalScore)
 
