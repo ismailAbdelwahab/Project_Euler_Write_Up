@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 #----------------------------------------------------------------
-#  Copyright (c) ABDEL WAHAB Ismail.      Created: June 21 2019				
+#  Made by ABDEL WAHAB Ismail.      Created: 31 October 2019				
 #   https://github.com/ismailAbdelwahab/Project_Euler_Write_Up 	
 #----------------------------------------------------------------
 #----------------------------------------------------------------
 #        10th Problem : https://projecteuler.net/problem=10
-#
-#     Find the sum of all the primes below two million.
 #----------------------------------------------------------------
+from time import time
 
 def isPrime(n):
 	""" 
@@ -28,15 +27,18 @@ def isPrime(n):
 		i += 6
 	return True
 
-sum_of_primes = 2
+def main():
+	sum_of_primes = 2
 
-for number in range(3,2000000,2):
-	if( isPrime(number) ):
-		sum_of_primes += number
-		print ("number added: "+str(number)+".")
+	for number in range(3,2000000,2):
+		if( isPrime( number ) ):
+			sum_of_primes += number
+			print ("number added: "+str(number)+".")
 
-#-------------
-#   OUTPUT	
-#-------------
-print ("The sum of all prime numbers below 2 million is :")
-print ("     sum =",sum_of_primes,".")
+	print ("The sum of all prime numbers below 2 million is :")
+	print ("     sum =",sum_of_primes,".")
+
+if __name__ == '__main__':
+	start_time = time()
+	main()
+	print("\n # Execution time: {:.2f} seconds.\n".format(time() - start_time))
